@@ -1,0 +1,13 @@
+query,sources,expected_pages,retrieved_pages,correct,recall,coverage
+What risks to adolescent mental health are linked to cyberbullying on social media?,"ImpactOfSocialMedia.pdf, O_Reilly.pdf","117-118, 606-607","[117], [610, 606, 609]",1,1,0.5
+How does social media use affect adolescent sleep quality?,"ImpactOfSocialMedia.pdf, O_Reilly.pdf","118, 609","[118], [608,609,608-609,613]",1,1,1
+What benefits of social media are reported for adolescent social connection?,ImpactOfSocialMedia.pdf,119,"[119,118-119,117,116,120], [-]",1,1,1
+What health care applications of social media are described for screening or treatment?,ImpactOfSocialMedia.pdf,119-120,"[119,119-120,118-119,120,121], [-]",1,1,1
+What conclusions are drawn about future directions of social media and youth mental health?,ImpactOfSocialMedia.pdf,120,"[115,118-119,120,116,116-117], [-]",1,1,1
+What do adolescents think about social media causing stress or depression?,O_Reilly.pdf,605-606,"[-],[602-603,604,610,601,603]",0,0,0
+How is social media described as addictive by adolescents?,O_Reilly.pdf,608,"[-],[608,602-603,609]",1,1,1
+What role does cyberbullying play in adolescent wellbeing according to adolescents?,O_Reilly.pdf,606-607,"[-],[606-607,612,606,610,612]",1,1,1
+What did adolescents report about social media’s impact on self-esteem and body image?,"ImpactOfSocialMedia.pdf, O_Reilly.pdf","119, 605","[116-117,118,120], [605-606]",1,1,0.5
+How did adolescents describe sleep problems linked to social media use?,"ImpactOfSocialMedia.pdf, O_Reilly.pdf","118, 609","[118], [608,609,608-609,613]",1,1,1
+What protective or coping strategies are mentioned for youth dealing with social media challenges?,"ImpactOfSocialMedia.pdf, O_Reilly.pdf","119, 607","[116,118-119],[601,610,602-603]",1,1,0.5
+What limitations or research gaps are identified for future studies on social media and youth mental health?,ImpactOfSocialMedia.pdf,120,"[115,120,117,116,116-117]",1,1,1
