@@ -1,5 +1,8 @@
 # 📚 CiteWise — Local AI Research Companion  
 
+**Video:** https://www.youtube.com/watch?v=FSk5HyYWbcU  
+**Tech Stack:** Streamlit • ChromaDB • Sentence-Transformers • LangChain • PyMuPDF
+
 **CiteWise** is a **local-first, privacy-friendly AI assistant** that helps researchers and students work with PDF research papers.  
 It extracts, chunks, embeds, and stores text in a **ChromaDB** vector database, enabling **semantic search with citation metadata** (paper + page numbers).  
 
@@ -32,23 +35,27 @@ It extracts, chunks, embeds, and stores text in a **ChromaDB** vector database, 
 ## 🚀 Quickstart  
 
 ```bash
-# 1. Clone repo
 git clone https://github.com/yourname/CiteWise.git
 cd CiteWise
 
-# 2. Setup venv
+# Create venv
 python -m venv venv
-source venv/bin/activate   # (or venv\Scripts\activate on Windows)
+# Activate (Linux/macOS)
+source venv/bin/activate
+# Or (Windows)
+venv\Scripts\activate
 
-# 3. Install requirements
+# Install requirements
+pip install --upgrade pip
 pip install -r requirements.txt
 
-# 4. Configure env
+# Setup env
 cp .env.example .env
-# edit VECTOR_DB_PATH, EMBEDDING_MODEL if needed
+# (Edit .env if needed)
 
-# 5. Run app
+# Run
 streamlit run Home.py
+
 ```
 
 
